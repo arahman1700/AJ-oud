@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
@@ -17,9 +18,18 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <span className="text-2xl font-heading text-brand-gold tracking-widest">
-              AJOUD
-            </span>
+            <div className="flex items-center gap-3">
+              <Image
+                src="/images/brand/logo.png"
+                alt="AJoud"
+                width={36}
+                height={45}
+                className="h-10 w-auto brightness-0 invert opacity-80"
+              />
+              <span className="text-xl font-heading text-brand-gold tracking-[0.25em] uppercase">
+                AJOUD
+              </span>
+            </div>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
               {t("aboutText")}
             </p>

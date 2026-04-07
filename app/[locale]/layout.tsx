@@ -11,6 +11,7 @@ import {
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
+import { BackToTop } from "@/components/layout/BackToTop";
 import { Toaster } from "@/components/ui/sonner";
 
 type Props = {
@@ -49,6 +50,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <main className="flex-1">{children}</main>
           <Footer />
           <WhatsAppButton />
+          <BackToTop />
           <Toaster position={isArabic ? "bottom-left" : "bottom-right"} />
         </NextIntlClientProvider>
       </body>

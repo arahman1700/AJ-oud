@@ -38,17 +38,33 @@ export default async function HomePage({ params }: Props) {
 
 function HeroSection() {
   const t = useTranslations("Home");
+  const pt = useTranslations("Product");
 
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-brand-green-dark via-brand-green to-background" />
-      <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-gold to-transparent" />
+      {/* Background: actual product image */}
+      <Image
+        src="/images/hero/hero-main.png"
+        alt="AJoud Collection"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+      />
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/30" />
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <div className="mb-8">
-          <span className="inline-block text-brand-gold text-6xl md:text-8xl font-heading tracking-wider">
-            AJ
-          </span>
+        {/* Logo */}
+        <div className="mb-6">
+          <Image
+            src="/images/brand/logo.png"
+            alt="AJoud"
+            width={80}
+            height={100}
+            className="mx-auto h-20 md:h-28 w-auto brightness-0 invert opacity-90"
+            priority
+          />
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading text-brand-beige mb-6 leading-tight">
@@ -66,18 +82,18 @@ function HeroSection() {
           {t("heroButton")}
         </Link>
 
-        <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-sm text-brand-beige/70">
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
-            100% Authentic
+            {pt("authentic")}
           </span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
-            Free Shipping 200+ SAR
+            {pt("freeShipping")}
           </span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
-            Secure Payment
+            {pt("delivery")}
           </span>
         </div>
       </div>
@@ -159,9 +175,13 @@ function BrandStorySection() {
       <div className="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-gold/40 to-transparent" />
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
-        <span className="text-4xl font-heading text-brand-gold tracking-widest">
-          AJ
-        </span>
+        <Image
+          src="/images/brand/logo.png"
+          alt="AJoud"
+          width={56}
+          height={70}
+          className="mx-auto h-14 w-auto brightness-0 invert opacity-80"
+        />
         <h2 className="text-3xl md:text-4xl font-heading text-brand-beige mt-6 mb-6">
           {t("brandStoryTitle")}
         </h2>
