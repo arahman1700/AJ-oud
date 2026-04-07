@@ -76,13 +76,11 @@ export function Header() {
 
             {/* Logo — Centered (like both reference sites) */}
             <Link href="/" className="flex flex-col items-center gap-1">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/images/brand/logo-light.png"
                 alt="AJoud"
-                width={44}
-                height={72}
                 className="h-10 md:h-14 w-auto"
-                priority
               />
               <span className="text-[10px] md:text-xs tracking-[0.35em] uppercase text-brand-gold font-medium">
                 AJOUD

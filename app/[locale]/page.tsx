@@ -57,13 +57,11 @@ function HeroSection() {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* Logo */}
         <div className="mb-6">
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src="/images/brand/logo-light.png"
             alt="AJoud"
-            width={80}
-            height={130}
             className="mx-auto h-20 md:h-28 w-auto"
-            priority
           />
         </div>
 
@@ -175,11 +173,10 @@ function BrandStorySection() {
       <div className="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-gold/40 to-transparent" />
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src="/images/brand/logo-light.png"
           alt="AJoud"
-          width={56}
-          height={90}
           className="mx-auto h-14 w-auto"
         />
         <h2 className="text-3xl md:text-4xl font-heading text-brand-beige mt-6 mb-6">
