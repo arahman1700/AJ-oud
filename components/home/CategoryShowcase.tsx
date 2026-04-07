@@ -7,6 +7,15 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { categories } from "@/data/products";
 
+const categoryImages: Record<string, string> = {
+  musk: "/images/products/musk-collection.jpg",
+  oud: "/images/products/oud-golden-tray.png",
+  bakhoor: "/images/products/bakhoor-scene.jpg",
+  oils: "/images/products/oud-decanter-2.png",
+  home: "/images/products/bakhoor-smoke.png",
+  "gift-sets": "/images/products/blue-musk-box.png",
+};
+
 function CategoryCard({
   category,
   index,
@@ -20,21 +29,19 @@ function CategoryCard({
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const t = useTranslations("Home");
 
-  const isEven = index % 2 === 0;
+  const imageSrc = categoryImages[category.id] || category.image;
 
   return (
     <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 60 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 60 }}
-      transition={{ duration: 0.7, delay: index * 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
-      className={`group relative overflow-hidden rounded-sm ${
-        index < 2
-          ? "md:col-span-1 aspect-[3/4]"
-          : index === 2
-          ? "md:col-span-2 aspect-[2/1]"
-          : "aspect-[3/4] md:aspect-[4/3]"
-      }`}
+      transition={{
+        duration: 0.7,
+        delay: index * 0.1,
+        ease: [0.25, 0.46, 0.45, 0.94],
+      }}
+      className="group relative overflow-hidden rounded-sm aspect-[3/4] md:aspect-[4/3]"
     >
       <Link
         href={`/products?category=${category.id}` as any}
@@ -42,31 +49,21 @@ function CategoryCard({
       >
         {/* Background image */}
         <Image
-          src={category.image}
+          src={imageSrc}
           alt={category.name[locale]}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
 
-        {/* Gradient overlay — direction alternates */}
-        <div
-          className={`absolute inset-0 transition-opacity duration-500 ${
-            isEven
-              ? "bg-gradient-to-t from-[#254639]/90 via-[#254639]/40 to-transparent"
-              : "bg-gradient-to-b from-[#254639]/90 via-[#254639]/40 to-transparent"
-          }`}
-        />
+        {/* Dark gradient overlay from bottom */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent transition-opacity duration-500" />
 
-        {/* Gold border line on hover */}
-        <div className="absolute inset-0 border border-transparent group-hover:border-brand-gold/30 transition-colors duration-500 rounded-sm" />
+        {/* Gold border on hover */}
+        <div className="absolute inset-0 border-2 border-transparent group-hover:border-brand-gold/40 transition-colors duration-500 rounded-sm" />
 
-        {/* Content */}
-        <div
-          className={`absolute inset-0 flex flex-col justify-end p-6 md:p-8 ${
-            isEven ? "" : "justify-start"
-          }`}
-        >
+        {/* Content pinned to bottom */}
+        <div className="absolute inset-x-0 bottom-0 flex flex-col p-6 md:p-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -121,7 +118,7 @@ export function CategoryShowcase() {
         <div className="w-20 h-px bg-brand-gold/40 mx-auto" />
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
         {categories.map((cat, index) => (
           <CategoryCard
             key={cat.id}

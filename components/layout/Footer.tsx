@@ -186,42 +186,24 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-brand-gold uppercase tracking-wider mb-4">
               {t("paymentMethods")}
             </h3>
-            <div className="grid grid-cols-4 gap-2">
-              <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 p-1.5">
-                <MadaIcon className="h-5 w-auto" />
-              </div>
-              <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 p-1.5">
-                <VisaIcon className="h-5 w-auto" />
-              </div>
-              <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 p-1.5">
-                <MastercardIcon className="h-5 w-auto" />
-              </div>
-              <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 p-1.5">
-                <ApplePayIcon className="h-5 w-auto" />
-              </div>
-              <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 p-1.5">
-                <GooglePayIcon className="h-5 w-auto" />
-              </div>
-              <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 p-1.5">
-                <TabbyIcon className="h-5 w-auto" />
-              </div>
-              <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 p-1.5">
-                <TamaraIcon className="h-5 w-auto" />
-              </div>
+            <div className="flex flex-wrap gap-1.5">
+              <MadaIcon className="h-7 w-auto" />
+              <VisaIcon className="h-7 w-auto" />
+              <MastercardIcon className="h-7 w-auto" />
+              <ApplePayIcon className="h-7 w-auto" />
+              <GooglePayIcon className="h-7 w-auto" />
+              <TabbyIcon className="h-7 w-auto" />
+              <TamaraIcon className="h-7 w-auto" />
             </div>
 
             {/* Shipping Partners */}
             <div className="mt-6">
               <p className="text-xs text-muted-foreground mb-2">
-                Shipping Partners
+                {t("shippingPartners")}
               </p>
-              <div className="flex gap-3">
-                <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 px-3 py-1.5">
-                  <AramexIcon className="h-5 w-auto" />
-                </div>
-                <div className="flex items-center justify-center rounded-md bg-white/5 border border-border/30 px-3 py-1.5">
-                  <SMSAIcon className="h-5 w-auto" />
-                </div>
+              <div className="flex gap-1.5">
+                <AramexIcon className="h-7 w-auto" />
+                <SMSAIcon className="h-7 w-auto" />
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ export const categories: Category[] = [
       ar: "تشكيلة فاخرة من أجود أنواع المسك الطبيعي",
       en: "A premium collection of the finest natural musk",
     },
-    image: "/images/products/three-musks.png",
+    image: "/images/products/musk-collection.jpg",
   },
   {
     id: "oud",
@@ -17,7 +17,7 @@ export const categories: Category[] = [
       ar: "عود كمبودي نادر من أعماق الغابات الاستوائية",
       en: "Rare Cambodian oud from the depths of tropical forests",
     },
-    image: "/images/products/oud-globe-1.png",
+    image: "/images/products/oud-golden-tray.png",
   },
   {
     id: "gift-sets",
@@ -26,7 +26,7 @@ export const categories: Category[] = [
       ar: "أطقم هدايا فاخرة لكل المناسبات",
       en: "Premium gift sets for every occasion",
     },
-    image: "/images/products/oud-box.png",
+    image: "/images/products/blue-musk-box.png",
   },
   {
     id: "bakhoor",
@@ -35,7 +35,7 @@ export const categories: Category[] = [
       ar: "بخور فاخر من أجود أنواع الخشب العطري",
       en: "Premium bakhoor from the finest aromatic woods",
     },
-    image: "/images/products/oud-globe-1.png",
+    image: "/images/products/bakhoor-scene.jpg",
   },
   {
     id: "oils",
@@ -44,7 +44,7 @@ export const categories: Category[] = [
       ar: "أدهان عود ومسك طبيعية مركزة",
       en: "Concentrated natural oud and musk oils",
     },
-    image: "/images/products/oud-globe-2.png",
+    image: "/images/products/oud-decanter-2.png",
   },
   {
     id: "home",
@@ -53,7 +53,7 @@ export const categories: Category[] = [
       ar: "خلطات بخور بيتية لأجواء عطرية مميزة",
       en: "Home bakhoor blends for a distinctive aromatic atmosphere",
     },
-    image: "/images/products/oud-box.png",
+    image: "/images/products/bakhoor-smoke.png",
   },
 ];
 
@@ -368,7 +368,7 @@ export const products: Product[] = [
       en: "This oud is distilled from aged Aquilaria trees deep in Cambodian forests, where the distillation process takes weeks to obtain the purest oud oil.",
     },
     category: "oud",
-    images: ["/images/products/oud-globe-1.png", "/images/products/oud-globe-2.png", "/images/products/oud-box.png"],
+    images: ["/images/products/oud-golden-tray.png", "/images/products/oud-decanter-1.png", "/images/products/oud-box.png"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 350 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 650 },
@@ -395,7 +395,7 @@ export const products: Product[] = [
       en: "Prepared from aged Cambodian oud wood chips, blended with amber and musk for an exceptional bakhoor experience.",
     },
     category: "bakhoor",
-    images: ["/images/products/oud-globe-1.png", "/images/products/oud-box.png"],
+    images: ["/images/products/bakhoor-scene.jpg", "/images/products/oud-box.png"],
     sizes: [
       { id: "small", label: { ar: "علبة صغيرة", en: "Small Box" }, price: 120 },
       { id: "large", label: { ar: "علبة كبيرة", en: "Large Box" }, price: 220 },
@@ -421,7 +421,7 @@ export const products: Product[] = [
       en: "Distilled using a traditional method that takes weeks to obtain the purest oud oil, crafted for rare fragrance enthusiasts.",
     },
     category: "oils",
-    images: ["/images/products/oud-globe-2.png", "/images/products/oud-globe-1.png"],
+    images: ["/images/products/oud-decanter-2.png", "/images/products/oud-decanter-1.png"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 450 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 850 },
