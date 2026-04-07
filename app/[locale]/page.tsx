@@ -6,6 +6,8 @@ import { categories, products, getLocalizedProduct } from "@/data/products";
 import { ProductGrid } from "@/components/product/ProductGrid";
 import { Newsletter } from "@/components/home/Newsletter";
 import { AnimatedHero } from "@/components/home/AnimatedHero";
+import { CategoryShowcase } from "@/components/home/CategoryShowcase";
+import { BrandShowcase } from "@/components/home/BrandShowcase";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -28,8 +30,9 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <AnimatedHero />
-      <CategoriesSection locale={loc} />
+      <CategoryShowcase />
       <BestSellersSection products={bestSellers} />
+      <BrandShowcase />
       <BrandStorySection />
       <NewArrivalsSection products={newArrivals} />
       <Newsletter />

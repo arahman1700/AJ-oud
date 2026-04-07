@@ -13,6 +13,7 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScroll";
+import { InstallPrompt } from "@/components/layout/InstallPrompt";
 import { Toaster } from "@/components/ui/sonner";
 
 type Props = {
@@ -61,6 +62,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <WhatsAppButton />
             <BackToTop />
           </SmoothScrollProvider>
+          <InstallPrompt />
           <Toaster position={isArabic ? "bottom-left" : "bottom-right"} />
         </NextIntlClientProvider>
       </body>

@@ -41,7 +41,7 @@ export function ProductCard({ product }: ProductCardProps) {
   };
 
   return (
-    <div className="group">
+    <div className="group transition-all duration-500 hover:scale-[1.03] hover:shadow-[0_8px_30px_rgba(188,156,96,0.15)]">
       <Link href={`/products/${product.slug}`} className="block">
         <div className="relative aspect-square overflow-hidden rounded-sm bg-card">
           {/* Product image */}
@@ -50,7 +50,7 @@ export function ProductCard({ product }: ProductCardProps) {
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />
 
           {/* Second image on hover — like Oud Al Hashmi */}
@@ -85,6 +85,9 @@ export function ProductCard({ product }: ProductCardProps) {
               ))}
             </div>
           )}
+
+          {/* Gold gradient line at bottom on hover */}
+          <div className="absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-transparent via-brand-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
 
           {/* Quick add button — appears on hover like Oud Al Hashmi */}
           {product.inStock && (
