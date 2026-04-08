@@ -3,7 +3,6 @@
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { GoldParticles } from "@/components/ui/gold-particles";
 import { MagneticButton } from "@/components/ui/magnetic-button";
 import { assetPath } from "@/lib/basePath";
 
@@ -12,7 +11,7 @@ export function AnimatedHero() {
   const pt = useTranslations("Product");
 
   return (
-    <section className="relative min-h-[80vh] md:min-h-[100vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[70vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -22,11 +21,6 @@ export function AnimatedHero() {
       {/* Gradient overlays */}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/40" />
       <div className="absolute inset-0 bg-gradient-to-b from-brand-green-dark/30 to-transparent" />
-
-      {/* Gold particles floating */}
-      <div className="absolute inset-0">
-        <GoldParticles />
-      </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* Animated logo */}
@@ -102,21 +96,6 @@ export function AnimatedHero() {
           )}
         </motion.div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 start-1/2 -translate-x-1/2"
-        animate={{ y: [0, 8, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-      >
-        <div className="w-6 h-10 rounded-full border-2 border-brand-gold/30 flex items-start justify-center pt-2">
-          <motion.div
-            className="w-1 h-2 rounded-full bg-brand-gold"
-            animate={{ y: [0, 12, 0], opacity: [1, 0.3, 1] }}
-            transition={{ duration: 2, repeat: Infinity }}
-          />
-        </div>
-      </motion.div>
     </section>
   );
 }

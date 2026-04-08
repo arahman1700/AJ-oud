@@ -27,7 +27,7 @@ function CategoryCard({
   locale: "ar" | "en";
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true, margin: "-20px" });
   const t = useTranslations("Home");
 
   const imageSrc = categoryImages[category.id] || category.image;
@@ -42,7 +42,7 @@ function CategoryCard({
         delay: index * 0.1,
         ease: [0.25, 0.46, 0.45, 0.94],
       }}
-      className="group relative overflow-hidden rounded-sm aspect-[16/9] sm:aspect-[3/4] md:aspect-[4/3]"
+      className="group relative overflow-hidden rounded-sm aspect-[4/3]"
     >
       <Link
         href={`/products?category=${category.id}` as any}
@@ -106,12 +106,12 @@ export function CategoryShowcase() {
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   return (
-    <section ref={ref} className="max-w-7xl mx-auto px-4 md:px-6 py-12 md:py-20">
+    <section ref={ref} className="max-w-7xl mx-auto px-4 md:px-6 py-10 md:py-16">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
         transition={{ duration: 0.6 }}
-        className="text-center mb-14"
+        className="text-center mb-8"
       >
         <h2 className="text-3xl md:text-4xl font-heading text-brand-gold mb-3">
           {t("featuredTitle")}
@@ -119,7 +119,7 @@ export function CategoryShowcase() {
         <div className="w-20 h-px bg-brand-gold/40 mx-auto" />
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
         {categories.map((cat, index) => (
           <CategoryCard
             key={cat.id}
