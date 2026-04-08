@@ -10,11 +10,11 @@ import { categories } from "@/data/products";
 
 const categoryImages: Record<string, string> = {
   musk: "/images/products/musk-collection.jpg",
-  oud: "/images/products/oud-golden-tray.png",
+  oud: "/images/products/oud-golden-tray.jpg",
   bakhoor: "/images/products/bakhoor-scene.jpg",
-  oils: "/images/products/oud-decanter-2.png",
-  home: "/images/products/bakhoor-smoke.png",
-  "gift-sets": "/images/products/blue-musk-box.png",
+  oils: "/images/products/oud-decanter-2.jpg",
+  home: "/images/products/bakhoor-smoke.jpg",
+  "gift-sets": "/images/products/blue-musk-box.jpg",
 };
 
 function CategoryCard({

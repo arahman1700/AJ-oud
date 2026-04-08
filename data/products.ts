@@ -17,7 +17,7 @@ export const categories: Category[] = [
       ar: "عود كمبودي نادر من أعماق الغابات الاستوائية",
       en: "Rare Cambodian oud from the depths of tropical forests",
     },
-    image: "/images/products/oud-golden-tray.png",
+    image: "/images/products/oud-golden-tray.jpg",
   },
   {
     id: "gift-sets",
@@ -26,7 +26,7 @@ export const categories: Category[] = [
       ar: "أطقم هدايا فاخرة لكل المناسبات",
       en: "Premium gift sets for every occasion",
     },
-    image: "/images/products/blue-musk-box.png",
+    image: "/images/products/blue-musk-box.jpg",
   },
   {
     id: "bakhoor",
@@ -44,7 +44,7 @@ export const categories: Category[] = [
       ar: "أدهان عود ومسك طبيعية مركزة",
       en: "Concentrated natural oud and musk oils",
     },
-    image: "/images/products/oud-decanter-2.png",
+    image: "/images/products/oud-decanter-2.jpg",
   },
   {
     id: "home",
@@ -53,7 +53,7 @@ export const categories: Category[] = [
       ar: "خلطات بخور بيتية لأجواء عطرية مميزة",
       en: "Home bakhoor blends for a distinctive aromatic atmosphere",
     },
-    image: "/images/products/bakhoor-smoke.png",
+    image: "/images/products/bakhoor-smoke.jpg",
   },
 ];
 
@@ -71,7 +71,7 @@ export const products: Product[] = [
       en: "This musk is extracted from rare natural sources in the Philippines, where raw materials are carefully hand-collected to preserve the purity of the fragrance.",
     },
     category: "musk",
-    images: ["/images/products/white-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/white-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 75 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 140 },
@@ -98,7 +98,7 @@ export const products: Product[] = [
       en: "Designed to be the first choice for luxury enthusiasts, with a secret formula combining the rarest oriental ingredients.",
     },
     category: "musk",
-    images: ["/images/products/green-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/green-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 65 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 120 },
@@ -125,7 +125,7 @@ export const products: Product[] = [
       en: "AJ Musk is the fragrance that started the AJoud story. A personal formula refined over years of experimentation until perfection was achieved.",
     },
     category: "musk",
-    images: ["/images/products/white-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/white-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 65 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 120 },
@@ -152,7 +152,7 @@ export const products: Product[] = [
       en: "AJ Blue Musk draws inspiration from Mediterranean sea breezes, delivering a refreshing fragrance experience with an oriental touch.",
     },
     category: "musk",
-    images: ["/images/products/blue-musk.png", "/images/products/blue-musk-angle.png"],
+    images: ["/images/products/blue-musk.jpg", "/images/products/blue-musk-angle.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 65 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 120 },
@@ -179,7 +179,7 @@ export const products: Product[] = [
       en: "This fragrance combines the purity of musk with the beauty of hand-picked Taifi roses from the historic gardens of Taif.",
     },
     category: "musk",
-    images: ["/images/products/green-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/green-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 65 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 120 },
@@ -206,7 +206,7 @@ export const products: Product[] = [
       en: "A classic formula reflecting the heritage of oriental musk, carefully crafted for connoisseurs of authentic fragrances.",
     },
     category: "musk",
-    images: ["/images/products/white-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/white-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 65 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 120 },
@@ -233,7 +233,7 @@ export const products: Product[] = [
       en: "Inspired by Silk Road legends, where musk was more precious than gold and rarer than jewels.",
     },
     category: "musk",
-    images: ["/images/products/green-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/green-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 50 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 90 },
@@ -260,7 +260,7 @@ export const products: Product[] = [
       en: "Designed for young people seeking a modern fragrance combining musk authenticity with a contemporary spirit.",
     },
     category: "musk",
-    images: ["/images/products/blue-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/blue-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 35 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 60 },
@@ -287,7 +287,7 @@ export const products: Product[] = [
       en: "A unique blend combining the delicacy of Dutch tulips with the warmth of oriental musk in an unforgettable fragrance experience.",
     },
     category: "musk",
-    images: ["/images/products/green-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/green-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 30 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 55 },
@@ -314,7 +314,7 @@ export const products: Product[] = [
       en: "Inspired by spring gardens, combining the most beautiful flowers in one formula with a warm musk touch.",
     },
     category: "musk",
-    images: ["/images/products/white-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/white-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 25 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 45 },
@@ -341,7 +341,7 @@ export const products: Product[] = [
       en: "Specially designed to combat Saudi summer heat, giving you a lasting sense of freshness throughout the day.",
     },
     category: "musk",
-    images: ["/images/products/blue-musk.png", "/images/products/three-musks.png"],
+    images: ["/images/products/blue-musk.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 25 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 45 },
@@ -368,7 +368,7 @@ export const products: Product[] = [
       en: "This oud is distilled from aged Aquilaria trees deep in Cambodian forests, where the distillation process takes weeks to obtain the purest oud oil.",
     },
     category: "oud",
-    images: ["/images/products/oud-golden-tray.png", "/images/products/oud-decanter-1.png", "/images/products/oud-box.png"],
+    images: ["/images/products/oud-golden-tray.jpg", "/images/products/oud-decanter-1.jpg", "/images/products/oud-box.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 350 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 650 },
@@ -395,7 +395,7 @@ export const products: Product[] = [
       en: "Prepared from aged Cambodian oud wood chips, blended with amber and musk for an exceptional bakhoor experience.",
     },
     category: "bakhoor",
-    images: ["/images/products/bakhoor-scene.jpg", "/images/products/oud-box.png"],
+    images: ["/images/products/bakhoor-scene.jpg", "/images/products/oud-box.jpg"],
     sizes: [
       { id: "small", label: { ar: "علبة صغيرة", en: "Small Box" }, price: 120 },
       { id: "large", label: { ar: "علبة كبيرة", en: "Large Box" }, price: 220 },
@@ -421,7 +421,7 @@ export const products: Product[] = [
       en: "Distilled using a traditional method that takes weeks to obtain the purest oud oil, crafted for rare fragrance enthusiasts.",
     },
     category: "oils",
-    images: ["/images/products/oud-decanter-2.png", "/images/products/oud-decanter-1.png"],
+    images: ["/images/products/oud-decanter-2.jpg", "/images/products/oud-decanter-1.jpg"],
     sizes: [
       { id: "quarter", label: { ar: "ربع تولة", en: "Quarter Tola" }, price: 450 },
       { id: "half", label: { ar: "نصف تولة", en: "Half Tola" }, price: 850 },
@@ -447,7 +447,7 @@ export const products: Product[] = [
       en: "A family blend passed down through generations, combining oud wood and aromatic herbs for an authentically Saudi home fragrance.",
     },
     category: "home",
-    images: ["/images/products/oud-box.png", "/images/products/oud-globe-1.png"],
+    images: ["/images/products/oud-box.jpg", "/images/products/oud-globe-1.jpg"],
     sizes: [
       { id: "small", label: { ar: "علبة صغيرة", en: "Small Box" }, price: 85 },
       { id: "large", label: { ar: "علبة كبيرة", en: "Large Box" }, price: 150 },
@@ -473,7 +473,7 @@ export const products: Product[] = [
       en: "The perfect gift for musk lovers — three different fragrance experiences in one elegant box.",
     },
     category: "gift-sets",
-    images: ["/images/products/oud-box.png", "/images/products/three-musks.png"],
+    images: ["/images/products/oud-box.jpg", "/images/products/three-musks.jpg"],
     sizes: [
       { id: "set", label: { ar: "الطقم الكامل", en: "Full Set" }, price: 180 },
     ],

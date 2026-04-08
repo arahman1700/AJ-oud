@@ -49,7 +49,7 @@ function HeroSection() {
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
       {/* Background: actual product image */}
       <Image
-        src={assetPath("/images/hero/hero-main.png")}
+        src={assetPath("/images/hero/hero-main.jpg")}
         alt="AJoud Collection"
         fill
         priority

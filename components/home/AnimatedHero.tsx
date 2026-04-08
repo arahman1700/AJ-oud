@@ -16,7 +16,7 @@ export function AnimatedHero() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${assetPath("/images/hero/hero-main.png")})` }}
+        style={{ backgroundImage: `url(${assetPath("/images/hero/hero-main.jpg")})` }}
       />
 
       {/* Gradient overlays */}
