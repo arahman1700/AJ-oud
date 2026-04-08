@@ -70,13 +70,13 @@ export function InstallPrompt() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={assetPath("/images/brand/icon-192.png")}
-          alt="AJoud"
+          alt="AJ OUD"
           className="w-12 h-12 rounded-xl shrink-0"
         />
 
         <div className="flex-1 min-w-0">
           <p className="text-sm font-semibold text-foreground">
-            {locale === "ar" ? "حمّل تطبيق أجود" : "Install AJoud App"}
+            {locale === "ar" ? "حمّل تطبيق AJ عود" : "Install AJ OUD App"}
           </p>
           <p className="text-xs text-muted-foreground mt-0.5">
             {locale === "ar"

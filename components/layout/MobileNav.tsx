@@ -68,7 +68,7 @@ export function MobileNav({ open, onClose, links }: MobileNavProps) {
       <SheetContent side="right" className="w-80 bg-background border-border flex flex-col">
         <SheetHeader className="text-start">
           <SheetTitle className="text-2xl font-heading text-brand-gold tracking-widest">
-            AJOUD
+            AJ OUD
           </SheetTitle>
         </SheetHeader>
 

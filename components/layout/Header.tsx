@@ -81,11 +81,11 @@ export function Header() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={assetPath("/images/brand/logo-light.png")}
-                alt="AJoud"
+                alt="AJ OUD"
                 className="h-10 md:h-14 w-auto"
               />
               <span className="text-[10px] md:text-xs tracking-[0.35em] uppercase text-brand-gold font-medium">
-                AJOUD
+                AJ OUD
               </span>
             </Link>
 

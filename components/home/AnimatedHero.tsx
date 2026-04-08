@@ -39,7 +39,7 @@ export function AnimatedHero() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={assetPath("/images/brand/logo-light.png")}
-            alt="AJoud"
+            alt="AJ OUD"
             className="mx-auto h-16 sm:h-24 md:h-36 w-auto drop-shadow-2xl"
           />
         </motion.div>

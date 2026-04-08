@@ -1,14 +1,15 @@
 {
-  "name": "AJoud — أجود العطور الشرقية",
-  "short_name": "AJoud",
-  "description": "متجر أجود للعود والمسك الفاخر",
-  "start_url": "/",
+  "name": "AJ عود",
+  "short_name": "AJ عود",
+  "description": "AJ عود — العود النادر والأدهان الفاخرة",
+  "start_url": "/AJ-oud/ar.html",
+  "scope": "/AJ-oud/",
   "display": "standalone",
   "background_color": "#1a2e23",
   "theme_color": "#254639",
   "orientation": "portrait",
   "icons": [
-    { "src": "/AJ-oud/images/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/AJ-oud/images/brand/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/AJ-oud/images/brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/AJ-oud/images/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }

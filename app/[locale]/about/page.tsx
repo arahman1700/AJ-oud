@@ -22,7 +22,7 @@ function AboutContent() {
       {/* Header */}
       <div className="text-center mb-16">
         <span className="text-5xl md:text-7xl font-heading text-brand-gold tracking-widest">
-          AJOUD
+          AJ OUD
         </span>
         <h1 className="text-3xl md:text-4xl font-heading text-foreground mt-6 mb-4">
           {t("title")}
@@ -35,7 +35,7 @@ function AboutContent() {
         <div className="relative aspect-[4/5] rounded-sm overflow-hidden">
           <Image
             src={assetPath("/images/brand/brand-photo.jpeg")}
-            alt="AJoud"
+            alt="AJ OUD"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"

@@ -117,12 +117,12 @@ export const products: Product[] = [
     slug: "aj-musk",
     name: { ar: "مسك AJ", en: "AJ Musk" },
     description: {
-      ar: "المسك المميز لعلامة أجود. تركيبة فريدة تحمل هوية البراند وتعكس الذوق الرفيع.",
-      en: "AJoud's signature musk. A unique formula that carries the brand identity and reflects refined taste.",
+      ar: "المسك المميز لعلامة AJ عود. تركيبة فريدة تحمل هوية البراند وتعكس الذوق الرفيع.",
+      en: "AJ Oud's signature musk. A unique formula that carries the brand identity and reflects refined taste.",
     },
     story: {
-      ar: "مسك AJ هو العطر الذي بدأت به قصة أجود. تركيبة شخصية تطورت عبر سنوات من التجريب حتى وصلت للكمال.",
-      en: "AJ Musk is the fragrance that started the AJoud story. A personal formula refined over years of experimentation until perfection was achieved.",
+      ar: "مسك AJ هو العطر الذي بدأت به قصة AJ عود. تركيبة شخصية تطورت عبر سنوات من التجريب حتى وصلت للكمال.",
+      en: "AJ Musk is the fragrance that started the AJ Oud story. A personal formula refined over years of experimentation until perfection was achieved.",
     },
     category: "musk",
     images: ["/images/products/white-musk.jpg", "/images/products/three-musks.jpg"],

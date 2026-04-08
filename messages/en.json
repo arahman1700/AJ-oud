@@ -32,12 +32,12 @@
     "featuredTitle": "Shop by Category",
     "bestSellersTitle": "Best Sellers",
     "newArrivalsTitle": "New Arrivals",
-    "brandStoryTitle": "The AJoud Story",
+    "brandStoryTitle": "The AJ Oud Story",
     "brandStoryText": "From the depths of Cambodian forests to the Arabian Peninsula, we source the finest oud and musk to deliver an extraordinary fragrance experience.",
     "brandStoryButton": "Discover Our Story",
     "taglineAr": "\u0644\u064A\u0633\u062A \u0645\u062C\u0631\u062F \u062A\u062C\u0631\u0628\u0629\u060C \u0628\u0644 \u0623\u0633\u0644\u0648\u0628 \u062D\u064A\u0627\u0629 \u064A\u0646\u0628\u0636 \u0628\u0627\u0644\u0641\u062E\u0627\u0645\u0629",
     "taglineEn": "Not just an experience, but a lifestyle pulsing with luxury",
-    "newsletterTitle": "Join the AJoud Family",
+    "newsletterTitle": "Join the AJ Oud Family",
     "newsletterText": "Subscribe for exclusive offers and new arrivals",
     "newsletterPlaceholder": "Your email address",
     "newsletterButton": "Subscribe",
@@ -103,13 +103,13 @@
     "placeOrder": "Place Order",
     "orderConfirmed": "Order Confirmed!",
     "orderNumber": "Order Number",
-    "thankYou": "Thank you for shopping with AJoud",
+    "thankYou": "Thank you for shopping with AJ Oud",
     "continueShoppingBtn": "Continue Shopping",
     "estimatedDelivery": "Estimated delivery: 2-5 business days"
   },
   "Footer": {
-    "about": "About AJoud",
-    "aboutText": "AJoud — a Saudi luxury brand specializing in rare Cambodian oud and premium musk. We offer the finest oriental fragrances with a modern touch.",
+    "about": "About AJ Oud",
+    "aboutText": "AJ Oud — a Saudi luxury brand specializing in rare Cambodian oud and premium musk. We offer the finest oriental fragrances with a modern touch.",
     "quickLinks": "Quick Links",
     "customerService": "Customer Service",
     "shippingPolicy": "Shipping Policy",
@@ -124,7 +124,7 @@
     "newsletter": "Newsletter"
   },
   "About": {
-    "title": "About AJoud",
+    "title": "About AJ Oud",
     "subtitle": "From Nature's Heart to Your Elegance",
     "story": "Founded in 2025 with a clear vision: to bring the finest natural oud and musk from their original sources in Cambodia and Southeast Asia to oriental fragrance enthusiasts in Saudi Arabia.",
     "mission": "Our Mission",
@@ -184,7 +184,7 @@
     "privacyContactText": "For any inquiries regarding your data privacy, you can reach us via email.",
     "termsTitle": "Terms & Conditions",
     "termsUseTitle": "Use of Website",
-    "termsUseText": "By using the AJoud website, you agree to comply with these terms and conditions. Please read them carefully before making any purchase.",
+    "termsUseText": "By using the AJ Oud website, you agree to comply with these terms and conditions. Please read them carefully before making any purchase.",
     "termsProductsTitle": "Product Descriptions",
     "termsProductsText": "We make every effort to ensure the accuracy of product descriptions and images. Colors may vary slightly due to screen settings. All our products are 100% authentic.",
     "termsPricingTitle": "Pricing",
@@ -192,7 +192,7 @@
     "termsCancellationTitle": "Order Cancellation",
     "termsCancellationText": "You may cancel your order before it is shipped. After shipping, our standard return policy applies. To cancel, contact us immediately via WhatsApp.",
     "termsLiabilityTitle": "Limitation of Liability",
-    "termsLiabilityText": "AJoud is not liable for any indirect damages resulting from the use of products. Our liability is limited to the value of the purchased product."
+    "termsLiabilityText": "AJ Oud is not liable for any indirect damages resulting from the use of products. Our liability is limited to the value of the purchased product."
   },
   "Contact": {
     "title": "Contact Us",

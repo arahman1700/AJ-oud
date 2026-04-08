@@ -76,7 +76,7 @@ export function BrandShowcase() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/brand/logo-light.png"
-            alt="AJoud"
+            alt="AJ OUD"
             className="mx-auto h-10 w-auto opacity-40"
           />
         </motion.div>

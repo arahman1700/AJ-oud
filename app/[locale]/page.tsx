@@ -50,7 +50,7 @@ function HeroSection() {
       {/* Background: actual product image */}
       <Image
         src={assetPath("/images/hero/hero-main.jpg")}
-        alt="AJoud Collection"
+        alt="AJ OUD Collection"
         fill
         priority
         sizes="100vw"
@@ -65,7 +65,7 @@ function HeroSection() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={assetPath("/images/brand/logo-light.png")}
-            alt="AJoud"
+            alt="AJ OUD"
             className="mx-auto h-20 md:h-28 w-auto"
           />
         </div>
@@ -181,7 +181,7 @@ function BrandStorySection() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={assetPath("/images/brand/logo-light.png")}
-          alt="AJoud"
+          alt="AJ OUD"
           className="mx-auto h-14 w-auto animate-fade-in"
         />
         <h2 className="text-3xl md:text-4xl font-heading text-brand-beige mt-6 mb-6 animate-fade-in-up">

@@ -12,7 +12,7 @@ export default function NotFound() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={assetPath("/images/brand/logo-light.png")}
-          alt="AJoud"
+          alt="AJ OUD"
           className="mx-auto h-16 w-auto mb-8"
         />
 

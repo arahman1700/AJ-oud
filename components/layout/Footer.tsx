@@ -40,11 +40,11 @@ export function Footer() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={assetPath("/images/brand/logo-light.png")}
-                alt="AJoud"
+                alt="AJ OUD"
                 className="h-10 w-auto"
               />
               <span className="text-xl font-heading text-brand-gold tracking-[0.25em] uppercase">
-                AJOUD
+                AJ OUD
               </span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
@@ -215,7 +215,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} AJoud. {t("rights")}.
+            &copy; {new Date().getFullYear()} AJ OUD. {t("rights")}.
           </p>
           <p className="flex items-center gap-1">
             <span className="text-brand-gold">&#9830;</span>

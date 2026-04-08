@@ -9,11 +9,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "AJoud — أجود العطور الشرقية",
-    template: "%s | AJoud",
+    default: "AJ OUD — AJ عود العطور الشرقية",
+    template: "%s | AJ OUD",
   },
   description:
-    "أجود — علامة سعودية فاخرة متخصصة في العود الكمبودي النادر والمسك الفاخر. AJoud — Saudi luxury brand specializing in rare Cambodian oud and premium musk.",
+    "AJ عود — علامة سعودية فاخرة متخصصة في العود الكمبودي النادر والمسك الفاخر. AJ Oud — Saudi luxury brand specializing in rare Cambodian oud and premium musk.",
 };
 
 export default function RootLayout({
